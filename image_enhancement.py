@@ -16,7 +16,7 @@ except Exception as e:
     print(f"Error: {e}")
 
 
-image_path = 'images/frame_650.jpg'  # Your picture path
+image_path = 'images/frame_2262.jpg'  # Your picture path
 image = cv2.imread(image_path)
 
 # Görseli BGR'den RGB'ye çevir
