@@ -9,4 +9,4 @@ Just follow these steps,
 5) You can change the pictures even you can integrated a video. If you have more videos or pictures for underwater just let me know and dont hasitate to share with me! 
 
 
-For your questions, suggestions and you want to share data, you can reach me ofu.951@gmail.com adress.
+For your questions, suggestions and if want to share data, you can reach me ofu.951@gmail.com adress.
