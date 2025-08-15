@@ -1,6 +1,6 @@
 Welcome the repo!
 
-Here you can find my deep learning models. You can download and try these models. I also added one python script for testing the results. 
+Here you can find my deep learning models. You can download and try these models. I also added one python script for testing the results. Do not forget it is still improving.
 Just follow these steps,
 1) Download all of files or just pick one of model and download with python script.
 2) Check your image path is correct!
