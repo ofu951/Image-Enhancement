@@ -16,23 +16,23 @@ except Exception as e:
     print(f"Error: {e}")
 
 
-image_path = 'images/frame_2262.jpg'  # Your picture path
+image_path = 'images/frame_2263.jpg'  # Your picture path
 image = cv2.imread(image_path)
 
 # Görseli BGR'den RGB'ye çevir
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 
-input_image = cv2.resize(image_rgb, (640, 360))  # Model giriş boyutuna göre ayarla
-input_image = np.expand_dims(input_image, axis=0)  # Batch boyutu ekle
-input_image = input_image / 255.0  # Normalizasyon
+input_image = cv2.resize(image_rgb, (640, 360))  
+input_image = np.expand_dims(input_image, axis=0) 
+input_image = input_image / 255.0 
 
 # Görseli modelle işleyin (enhancement yapın)
 enhanced_image = model.predict(input_image)
 
 # Çıktıyı görselleştirilebilir formata çevir
 enhanced_image = (enhanced_image[0] * 255.0).astype(np.uint8)
-enhanced_resized_image = cv2.resize(enhanced_image, (1280, 720))  # Model giriş boyutuna göre ayarla
+enhanced_resized_image = cv2.resize(enhanced_image, (1280, 720))  
 
 # Kayıt klasörünü oluştur
 output_dir = "output_images"
@@ -53,7 +53,7 @@ plt.imshow(image_rgb)
 plt.title('Original Image')
 plt.axis('off')
 
-# Geliştirilmiş görsel
+
 plt.subplot(1, 2, 2)
 plt.imshow(enhanced_image)
 plt.title('Enhanced Image')
